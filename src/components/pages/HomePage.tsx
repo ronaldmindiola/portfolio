@@ -17,63 +17,37 @@ const HomePage = () => {
           <p>A continuación te presento algunos de mis proyectos.</p>
         </div>
 
-        <div className="grid grid-cols-3 gap-4 my-12">
+        <div className="grid grid-cols-3 gap-4 my-12 ">
           <div className="shadow-lg rounded-lg overflow-hidden">
             <Link
-              to="/servicios"
-              className="max-w-xs h-16 flex justify-center items-center rounded overflow-hidden shadow-lg bg-stone-200 hover:bg-stone-400 "
+              to="https://gastos-psi.vercel.app/"
+              className="py-4 max-w-xs h-16 flex flex-col opacity-50 justify-center items-left rounded overflow-hidden shadow-lg dark:bg-stone-900 hover:bg-stone-700 hover:opacity-100"
             >
-              <div className="font-bold text-xl text-stone-700">
-                Metrics Players
-              </div>
+              <div className="font-bold text-xl text-center ">Gastos</div>
             </Link>
           </div>
           <div className="shadow-lg rounded-lg overflow-hidden">
             <Link
-              to="/servicios"
-              className="max-w-xs h-16 flex justify-center items-center rounded overflow-hidden shadow-lg bg-stone-200 hover:bg-stone-400 "
+              to="https://criptos-eight.vercel.app/"
+              className="py-4 max-w-xs h-16 flex flex-col opacity-50 justify-center items-left rounded overflow-hidden shadow-lg dark:bg-stone-900 hover:bg-stone-700 hover:opacity-100"
             >
-              <div className="font-bold text-xl text-stone-700">
-                Metrics Players
-              </div>
+              <div className="font-bold text-xl text-center ">Criptos</div>
             </Link>
           </div>
           <div className="shadow-lg rounded-lg overflow-hidden">
             <Link
-              to="/servicios"
-              className="max-w-xs h-16 flex justify-center items-center rounded overflow-hidden shadow-lg bg-stone-200 hover:bg-stone-400 "
+              to="https://citas-six.vercel.app/"
+              className="py-4 max-w-xs h-16 flex flex-col opacity-50 justify-center items-left rounded overflow-hidden shadow-lg dark:bg-stone-900 hover:bg-stone-700 hover:opacity-100"
             >
-              <div className="font-bold text-xl text-stone-700">
-                Metrics Players
-              </div>
+              <div className="font-bold text-xl text-center ">Citas</div>
             </Link>
           </div>
           <div className="shadow-lg rounded-lg overflow-hidden">
             <Link
-              to="/servicios"
-              className="max-w-xs h-16 flex justify-center items-center rounded overflow-hidden shadow-lg bg-stone-200 hover:bg-stone-400 "
+              to="https://citas-six.vercel.app/"
+              className="py-4 max-w-xs h-16 flex flex-col opacity-50 justify-center items-left rounded overflow-hidden shadow-lg dark:bg-stone-900 hover:bg-stone-700 hover:opacity-100"
             >
-              <div className="font-bold text-xl text-stone-700">
-                Metrics Players
-              </div>
-            </Link>
-          </div>
-          <div className="shadow-lg rounded-lg overflow-hidden">
-            <Link
-              to="/servicios"
-              className="max-w-xs h-16 flex justify-center items-center rounded overflow-hidden shadow-lg bg-stone-200 hover:bg-stone-400 "
-            >
-              <div className="font-bold text-xl text-stone-700">
-                Metrics Players
-              </div>
-            </Link>
-          </div>
-          <div className="shadow-lg rounded-lg overflow-hidden">
-            <Link
-              to="/servicios"
-              className="max-w-xs h-16 flex justify-center items-center rounded overflow-hidden shadow-lg bg-stone-200 hover:bg-stone-400 "
-            >
-              <div className="font-bold text-xl text-stone-700">
+              <div className="font-bold text-xl text-center ">
                 Metrics Players
               </div>
             </Link>
