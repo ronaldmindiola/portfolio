@@ -42,16 +42,6 @@ const HomePage = () => {
               <div className="font-bold text-xl text-center ">Citas</div>
             </Link>
           </div>
-          <div className="shadow-lg rounded-lg overflow-hidden">
-            <Link
-              to="https://citas-six.vercel.app/"
-              className="py-4 max-w-xs h-16 flex flex-col opacity-50 justify-center items-left rounded overflow-hidden shadow-lg dark:bg-stone-900 hover:bg-stone-700 hover:opacity-100"
-            >
-              <div className="font-bold text-xl text-center ">
-                Metrics Players
-              </div>
-            </Link>
-          </div>
         </div>
       </div>
     </>
